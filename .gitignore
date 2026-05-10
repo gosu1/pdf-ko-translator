@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Generated outputs
+outputs/
+*.log
+
+# Local/system
+.DS_Store
+
+# Private PDFs - keep real documents out of Git
+/private/
+*.tmp.pdf
