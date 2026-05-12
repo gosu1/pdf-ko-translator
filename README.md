@@ -1,6 +1,6 @@
 # Layout-Preserving PDF Korean Translator
 
-영어 기술 PDF를 한국어 PDF로 변환하면서 원본 레이아웃을 최대한 보존하는 포트폴리오용 번역 파이프라인입니다.
+영어 기술 PDF를 한국어 PDF로 변환하면서 원본 레이아웃을 최대한 보존하는 번역 파이프라인입니다.
 
 이 프로젝트는 **PDFMathTranslate/pdf2zh**를 기본 번역 엔진으로 사용하고, **Gemini API**를 번역 백엔드로 연결합니다. 여기에 **PyMuPDF 기반 QA 단계**를 추가해 미번역 영어, 이미지 중심 페이지, OCR 필요 여부 같은 품질 리스크를 리포트로 남깁니다.
 
